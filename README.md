@@ -21,6 +21,8 @@ then the previous symbol is equivalent to the inversion, and the mistake is in t
 
 4.The compiler will only give you a WARNING in this case.
 
+5.After all, it’s an overflow problem.
+
 ---
 
 ##solution:
@@ -54,6 +56,8 @@ The following is the Chinese language
   然后前面的符号就相当于取反，错就错在取反的过程。
   
 4.编译器在这种情况下只会给你一个WARNING。
+
+5.说到底就是个溢出的问题
 
 ---
 ##解决方案：
