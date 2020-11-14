@@ -1,8 +1,9 @@
 # League-of-Legends-S11-preseason-jungle-sword-bug
-##LOL  S11 Season The jungle knife BUG hit 2147483648 damage, which seriously affected the game balance and player experience, analyze the reasons and solutions
+
+## LOL  S11 Season The jungle knife BUG hit 2147483648 damage, which seriously affected the game balance and player experience, analyze the reasons and solutions
 ---
 
-##This BUG is divided into the following steps: 
+## This BUG is divided into the following steps: 
 
 1.The code for the disappearance of the equipment and the code for the sale of the equipment;
 
@@ -25,7 +26,7 @@ then the previous symbol is equivalent to the inversion, and the mistake is in t
 
 ---
 
-##solution:
+## solution:
 
 1. Change the selling price of jungle knives to 0, and merge the process of selling them into the disappearing code.
 
@@ -37,7 +38,7 @@ The following is the Chinese language
 ---
 ---
 
-##这个BUG分为以下几个步骤：
+## 这个BUG分为以下几个步骤：
 
 1.装备消失的代码和装备出售的代码
 
@@ -46,7 +47,7 @@ The following is the Chinese language
 3.总所周知，
 
   | int   | -2147483648 |
-    | --- | --- |
+  | --- | --- |
   | 二进制 | 1000 0000 0000 0000 0000 0000 0000 0000 |
   | 十六进制 | 8000 0000 |
   
@@ -60,7 +61,8 @@ The following is the Chinese language
 5.说到底就是个溢出的问题
 
 ---
-##解决方案：
+
+## 解决方案：
 
 1.将打野刀的出售价改为0，同时出售的过程归并到消失的代码中。
 
@@ -68,6 +70,6 @@ The following is the Chinese language
 
 ---
 
-#以上是天朝语言
+# 以上是天朝语言
 
 ---
